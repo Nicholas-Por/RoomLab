@@ -3,7 +3,7 @@ package Game;
 import People.Person;
 import Rooms.Room;
 import Rooms.WinningRoom;
-
+import Game.Board;
 import java.util.Scanner;
 
 public class Runner {
@@ -114,6 +114,7 @@ public class Runner {
 		}
 		return true;
 	}
+
 	public static void gameOff()
 	{
 		gameOn = false;
